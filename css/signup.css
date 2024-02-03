@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: ui-sans-serif,system-ui,sans-serif;
+    margin: 0 auto;
+}
+
+body .container{
+    background: #f7fafc;
+    display: flex;
+    min-height: 100vh;
+    padding: 64px 24px 64px 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+    margin-right: 40.5px;
+    margin-left: 40.5px;
+}
+body .container .title h1{ 
+    color: black;
+    text-align: center;
+}
+
+body .container .container-content{
+    
+    background: white;
+    margin: 0 72px 0 72px;
+    padding: 40px 32px 40px 32px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 500px;
+    height: 600px;
+}
+#form-signup{
+    max-width: 400px;
+    flex-grow: 1;
+}
+.input-group{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.input-group label{
+    font-weight: 500;
+}
+.input-group input, .btn-submit{
+    border: 1px solid #e2e8f0;
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+}
+.text-account{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+.text-account span.text-login {
+    font-size: 13px;
+    font-weight: 500;
+}
+.text-account span.text-login a{
+   color: #17bf63;
+   padding-left: 5px;
+}
+
+.form-input{
+    padding: 10px;
+}
+
+.btn-submit{
+    background: #17bf63;
+    color: white;
+}
+.btn-submit:hover{
+    background: #0f8f53;
+}
+
+
+
+
+
+
