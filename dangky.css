@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+/*font*/
+@font-face {
+    font-family: "Roboto-Bold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("/CuoiKi/font/Roboto-Bold.woff2") format("woff2"), url("/CuoiKi/font/Roboto-Bold.woff") format("woff"), url("/CuoiKi/font/Roboto-Bold.ttf") format("truetype"), url("/CuoiKi/font/Roboto-Bold.eot") format("embedded-opentype");
+        /*woff: định dạng font
+            truetype: định dạng font
+            ttf : chạy chrome, firefox
+            eot: chạy IE
+        */
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://static.mediacdn.vn/nld/Styles/Fonts/Roboto-Medium.woff2") format("woff2"),url("https://static.mediacdn.vn/nld/Styles/Fonts/Roboto-Medium.woff") format("woff"),url("https://static.mediacdn.vn/nld/Styles/Fonts/Roboto-Medium.ttf") format("truetype"),url("https://static.mediacdn.vn/nld/Styles/Fonts/Roboto-Medium.eot?") format("embedded-opentype")
+}
+
+
+.acc_header{
+    border-bottom: 1px solid #f2f2f2;
+    background: #0959ab;
+    padding: 12px;
+    text-align: center;
+}
+.acc_logo{
+    height: 40px;
+}
+
+.acc_section{
+    padding: 40px 16px;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+}
+.acc_container{
+    width: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.section-title{
+    color: #333;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.acc_container .section-title a{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom:  10px;
+}
+.acc_container .section-title a.active{
+    color: #333;
+    border-bottom-color: #0959ab;
+}
+.ac_form .row-ct{
+    margin-bottom: 20px;
+}
+.label{
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    font-family: Roboto-Medium;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+}
+.row-ctip{
+    position: relative;
+}
+.row-ct{
+    margin-bottom: 20px;
+}
+.row-ct .btn-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0 12px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.password{
+    position: relative;
+}
+.row-ct .forgot-pw{
+    color: #565656;
+    font: 400 14px/normal Roboto;
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+
+}
+.row-sm .btn-sm{
+    border-radius: 4px;
+    background: #0959ab;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    color: whitesmoke;
+    font: 500 18px/normal Roboto;
+    border: 0;
+    cursor: pointer;
+}
+
+.acc_bottom{
+    margin-top: 15px;
+}
+.orther{
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+.orther span{
+    padding: 0 5px;
+    background: #fff;
+    position: relative;
+    bottom: -10px;
+    color: #565656;
+    font: 400 14px/normal Roboto;
+}
+.text{
+    color: #565656;
+    font: 400 14px/normal Roboto;
+    margin-bottom: 36px;
+}
+.bol{
+    font-weight: 500;
+    color: #565656;
+    text-decoration-line: underline;
+}
+.acc_social{
+    display: flex;
+}
+.password .password-eye{
+    position: absolute;
+    right: 6px;
+    top: 15px;
+    cursor: pointer;
+}
+
+
+/**/
+
+
+.footer{
+    margin-top: 35px;
+    background: #fff;
+    height: 320px;
+}
+.footer .menu-container-f{
+    background: #e9e9e9;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+}
+.footer .menu-container-f ul.menu-top-f{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.footer .menu-container-f ul.menu-top-f li{
+    padding: 9px 0 7px;
+
+}
+.footer .menu-container-f ul.menu-top-f li a{
+    color: #000;
+    border-right: 1px solid #a1a1a1;
+    padding: 1px 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Roboto-Bold;
+}
+.footer .menu-container-f ul.menu-top-f li a::after{
+    border-right: none;
+}
+
+.footer .footer-container .footer-content{
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+.footer .footer-container .footer-content .box-footer{
+    float: left;
+    width: 560px;
+    min-height: 110px;
+}
+
+.footer .footer-container .footer-content .box-footer .title{
+    color: #000;
+    font: normal 14px/normal Roboto-Bold;
+    text-transform: uppercase;
+}
+.footer .footer-container .footer-content .box-footer .sapo{
+    color: #000;
+    font: normal 11px/normal Roboto-Bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer .footer-container .footer-content .box-footer .certification{
+    float: left;
+    color: #222;
+    font: normal 13px/normal Roboto-Medium;
+    width: 216px;
+}
+.footer .footer-container .footer-content .box-footer .manager{
+    float: right;
+    padding-right: 15px;
+}
+.footer .footer-container .footer-content .box-footer .manager p{
+    color: #454545;
+    font: normal 13px/normal Roboto-Medium;
+
+}
+
+.footer .footer-container .footer-content .box-footer .box-address{
+    width: 275px;
+    padding-left: 15px;
+}
+.footer .footer-container .footer-content .box-footer .box-address .address{
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.footer .footer-container .footer-content .box-footer .box-address .address p{
+    color: #454545;
+    font: normal 13px/normal Roboto-Medium;
+    
+}
+.footer .footer-container .footer-content .box-footer.box-contact-ads{
+    width: 260px;
+    padding-left: 15px;
+    border-right: none;
+}
+
+
+
+.notification .notification-content{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #454545;
+    font: normal 13px/normal Roboto-Medium;
+    display: block;
+}
